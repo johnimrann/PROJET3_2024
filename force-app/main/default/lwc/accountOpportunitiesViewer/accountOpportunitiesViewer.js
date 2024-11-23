@@ -1,7 +1,7 @@
 import { LightningElement, api, wire, track } from 'lwc';
 import getOpportunities from '@salesforce/apex/AccountOpportunitiesController.getOpportunities';
 
-export default class AccountOpportunitiesViewer extends LightningElement {
+export default class accountOpportunitiesViewer extends LightningElement {
     @api recordId;
     @track opportunities;
     @track error = {};
